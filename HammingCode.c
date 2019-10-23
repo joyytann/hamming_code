@@ -90,7 +90,6 @@ void main()
             }
         } while (validation ==0);
         } while(rerun != 1);      
-        system("pause");
 }
 int* assign_array(int bits_length, int change_bits, int assigned_data_stream)
 {
@@ -182,7 +181,7 @@ int calculate_databit(int bit_position)
           c++;
          if (bit_position == counter)
          {
-             printf("\n\nBit Position Error: %d\nCheckbits : C%d\n", bit_position, c);
+             printf("\n\nBit Error: %d\nCheckbits : C%d\n", bit_position, c);
          }
       }
       else
@@ -190,7 +189,7 @@ int calculate_databit(int bit_position)
           d++;
           if(bit_position == counter)
           {
-              printf("\n\nBit Position Error: %d\nCheckbits : D%d\n", bit_position, d);
+              printf("\n\nBit Error: %d\nCheckbits : D%d\n", bit_position, d);
           }
         }
       counter++;
