@@ -181,7 +181,11 @@ int calculate_databit(int bit_position)
           c++;
          if (bit_position == counter)
          {
+<<<<<<< HEAD
              printf("\n\nBit Position: %d\nCheckbits : C%d\n", bit_position, c);
+=======
+             printf("\n\nBit Error: %d\nCheckbits : C%d\n", bit_position, c);
+>>>>>>> 92789187e06ce3ccf5c9e67f9f5a0f29a28721ee
          }
       }
       else
@@ -189,7 +193,11 @@ int calculate_databit(int bit_position)
           d++;
           if(bit_position == counter)
           {
+<<<<<<< HEAD
               printf("\n\nBit Position: %d\nCheckbits : D%d\n", bit_position, d);
+=======
+              printf("\n\nBit Error: %d\nCheckbits : D%d\n", bit_position, d);
+>>>>>>> 92789187e06ce3ccf5c9e67f9f5a0f29a28721ee
           }
         }
       counter++;
